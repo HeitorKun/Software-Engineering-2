@@ -1,0 +1,3 @@
+CREATE DATABASE users;
+CREATE DATABASE activities;
+CREATE DATABASE tasks;
