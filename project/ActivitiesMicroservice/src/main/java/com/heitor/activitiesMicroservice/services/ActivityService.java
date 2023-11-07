@@ -1,7 +1,7 @@
-package com.heitor.softwareEngineering.services;
+package com.heitor.activitiesMicroservice.services;
 
-import com.heitor.softwareEngineering.domain.Activity.Activity;
-import com.heitor.softwareEngineering.domain.Activity.ActivityRepository;
+import com.heitor.activitiesMicroservice.domain.Activity.Activity;
+import com.heitor.activitiesMicroservice.domain.Activity.ActivityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

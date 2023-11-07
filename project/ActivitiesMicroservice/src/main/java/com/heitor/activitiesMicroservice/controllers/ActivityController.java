@@ -1,7 +1,7 @@
-package com.heitor.softwareEngineering.controllers;
+package com.heitor.activitiesMicroservice.controllers;
 
-import com.heitor.softwareEngineering.domain.Activity.Activity;
-import com.heitor.softwareEngineering.services.ActivityService;
+import com.heitor.activitiesMicroservice.domain.Activity.Activity;
+import com.heitor.activitiesMicroservice.services.ActivityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

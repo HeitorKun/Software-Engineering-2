@@ -1,4 +1,4 @@
-package com.heitor.softwareEngineering.domain.Activity;
+package com.heitor.activitiesMicroservice.domain.Activity;
 
 import jakarta.persistence.*;
 import lombok.Data;
