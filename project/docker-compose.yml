@@ -23,3 +23,16 @@ services:
       SPRING_DATASOURCE_PASSWORD: mysecretpassword
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
     restart: always
+
+  activitiesmicroservice:
+    build: ./ActivitiesMicroservice
+    ports:
+      - "8081:8080"
+    depends_on:
+      - postgres
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/activities
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: mysecretpassword
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+    restart: always
