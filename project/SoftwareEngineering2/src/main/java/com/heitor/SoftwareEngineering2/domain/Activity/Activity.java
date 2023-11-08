@@ -1,4 +1,4 @@
-package com.es.esll.domain.Activity;
+package com.heitor.SoftwareEngineering2.domain.Activity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -17,5 +17,4 @@ public class Activity {
     private LocalDateTime endDate;
     private Integer userId;
 
-    // Getters, setters, and other methods
 }

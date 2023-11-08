@@ -1,7 +1,7 @@
-package com.es.esll.controllers.ActivityController;
+package com.heitor.SofwareEngineering2.controllers;
 
 import com.es.esll.domain.Activity;
-import com.yourpackage.services.ActivityService;
+import com.es.esll.services.ActivityService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

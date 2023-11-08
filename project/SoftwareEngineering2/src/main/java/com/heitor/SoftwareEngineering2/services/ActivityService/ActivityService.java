@@ -1,3 +1,5 @@
+package com.heitor.SoftwareEngineering2.services.ActivityService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
