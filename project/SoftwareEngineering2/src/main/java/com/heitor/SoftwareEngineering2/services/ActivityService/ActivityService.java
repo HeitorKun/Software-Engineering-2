@@ -1,10 +1,11 @@
 package com.heitor.SoftwareEngineering2.services.ActivityService;
 
+import com.heitor.SoftwareEngineering2.domain.Activity.Activity;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import com.heitor.activitiesMicroservice.domain.Activity.Activity;
 
 @Service
 public class ActivityService {
