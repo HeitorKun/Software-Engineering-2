@@ -42,10 +42,7 @@ public class ActivityController {
     
     @DeleteMapping("/{activityId}")
     public ResponseEntity<?> deleteActivity(@PathVariable Long activityId) {
-        if (activityService.deleteActivityWithTasks(activityId)) {
-            return ResponseEntity.ok().build();
-        } else {
-            return ResponseEntity.notFound().build();
-        }
+        activityService.deleteActivity(activityId);
+        return ResponseEntity.ok().build();
     }
 }

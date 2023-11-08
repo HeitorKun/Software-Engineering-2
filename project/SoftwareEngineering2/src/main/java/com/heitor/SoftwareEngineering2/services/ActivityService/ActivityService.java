@@ -14,6 +14,11 @@ public class ActivityService {
     private final String activitiesServiceUrl;
 
     @Autowired
+    public ActivityService(@Value("${activities.microservice.url}") String activitiesServiceUrl) {
+        this.restTemplate = new RestTemplate();
+        this.activitiesServiceUrl = activitiesServiceUrl;
+    }
+
     public ActivityService(RestTemplate restTemplate, @Value("${activities.microservice.url}") String activitiesServiceUrl) {
         this.restTemplate = restTemplate;
         this.activitiesServiceUrl = activitiesServiceUrl;
