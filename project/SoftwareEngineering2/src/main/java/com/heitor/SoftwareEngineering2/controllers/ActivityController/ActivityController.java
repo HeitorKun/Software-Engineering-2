@@ -1,4 +1,4 @@
-package com.heitor.SofwareEngineering2.controllers;
+package com.heitor.SoftwareEngineering2.controllers.ActivityController;
 
 import com.heitor.SoftwareEngineering2.services.ActivityService.ActivityService;
 import com.heitor.SoftwareEngineering2.domain.Activity.Activity;
@@ -22,7 +22,7 @@ public class ActivityController {
     }
 
     
-    @PostMapping
+    @PostMapping("/test")
     public ResponseEntity<Activity> createActivity(@Valid @RequestBody Activity activity) {
         Activity newActivity = activityService.createActivity(activity);
         return ResponseEntity.ok(newActivity);

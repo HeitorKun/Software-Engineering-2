@@ -52,7 +52,7 @@ services:
   softwareengineering:
     build: ./SoftwareEngineering2
     ports:
-      - "8083:8080"
+      - "8089:8089"
     depends_on:
       - activitiesmicroservice
     restart: always
