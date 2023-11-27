@@ -51,6 +51,4 @@ public class TaskController {
         taskService.deleteTask(taskId);
         return ResponseEntity.ok().build();
     }
-
-    // Additional endpoints for task-specific functionality can be added here
 }
